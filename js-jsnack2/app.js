@@ -12,11 +12,13 @@ let parola2 = prompt('inserisci la seconda parola')
 //     -stampare come seconda la parola più lunga
 if (parola1.length < parola2.length) {
 
-    console.log('la parola più corta è:', parola1, 'e la parola più lunga è:', parola2)
+    console.log('la parola più corta è:', parola1, (parola1.length))
+    console.log('la parola più lunga è:', parola2, (parola2.length))
 
 } else {
 
-    console.log('la parola più corta è:', parola2, 'e la parola più lunga è:', parola1)
+    console.log('la parola più corta è:', parola2, (parola2.length))
+    console.log('la parola più lunga è:', parola1, (parola1.length))
     
 }
 
